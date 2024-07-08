@@ -191,6 +191,98 @@ body {
 .add-container button:hover {
   background: #bb1818;
 }
+/*coming soon*/
+.coming-soon-container{
+  width: 1320px;
+  height: 463px;
+  margin: 0 auto;
+  margin-top: 90px;
+  display: flex;
+}
+.coming-left{
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.coming-left h5{
+  width: 207px;
+  height: 29px;
+  color: #ff0000;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  
+}
+.coming-left h3{
+  width: 328px;
+  height: 60px;
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 16px;
+  
+}
+.coming-left p{
+  width: 393px;
+  height: 128px;
+  color: #07021199;
+  font-family: Inter;
+  margin-top: 22px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.coming-mid{
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 70px;
+}
+.coming-mid img{
+  border: 3px dashed gray;
+}
+
+.coming-right{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 112px;
+  
+}
+.coming-right-date{
+  width: 276px;
+  height: 170px;
+}
+.coming-right-date h3{
+  width: 126px;
+  height: 58px;
+  color: #ff0000;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+.coming-right-date p{
+  color: #07021199;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  width: 276px;
+  height: 96px;
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+.coming-right-pic{
+  width: 140px;
+height: 132.79px;
+}
+.coming-right-pic img{
+  border: 2px dashed gray;
+}
 
 /*holiday*/ /*
 .holiday-container {
@@ -310,9 +402,10 @@ body {
 
 /*footer */
 .footer-container{
-    width: 1600px;
-    height: 609px;
-    background: rgb(7, 2, 17);
+    border: 3px red solid;
+    width: 1320px;
+    height: 500px;
+    background: #070211;
     margin: 0 auto;
     margin-top: 60px;
 }
@@ -326,20 +419,21 @@ body {
     width: 90%;
     margin: 0 auto;
     justify-content: space-between;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 40px;
+    
 }
 hr{
     width: 90%;
     margin: 0 auto;
-    margin-top: 100px;
+   margin-top: 50px;
 }
 .social-icons{
     width: 400px;
     margin: 0 auto;
-    margin-top: 120px;
+    margin-top: 70px;
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 70px;
 }
 
 .footer-last-sec{
@@ -349,5 +443,4 @@ hr{
     margin: 0 auto;
     justify-content: space-between;
     margin-top: 50px;
-    margin-bottom: 50px;
 }
